@@ -1,0 +1,16 @@
+﻿<Window x:Class="laba2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:laba2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Text="00:00:00" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TimeBox"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="337,247,0,0" VerticalAlignment="Top" Click="Start_CLick"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="400,247,0,0" VerticalAlignment="Top" Click="Stop_CLick"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="464,247,0,0" VerticalAlignment="Top" Click="Reset_Click"/>
+
+    </Grid>
+</Window>
